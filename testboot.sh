@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 TEST_DIR="/tmp/saitest"
 mkdir $TEST_DIR
@@ -37,3 +37,4 @@ sudo nohup sh run.sh > /tmp/parablu_run.log 2>&1 &
 # sudo nohup /opt/ParaBlu/run.sh >> /tmp/parablu_run.log 2>&1 &
 
 echo " End boot script test !" >> $MYLOGFILE
+
