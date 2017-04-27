@@ -7,7 +7,7 @@ whoami
 ls
 sed -i -e 's/Defaults requiretty.*/ #Defaults requiretty/g' /etc/sudoers
 sudo yum install wget -y >> /tmp/wget.log 2>&1
-sudoyum install unzip -y >> /tmp/BAAS_Install_Boot.log 2>&1
+sudo yum install unzip -y >> /tmp/BAAS_Install_Boot.log 2>&1
 sudo mkdir /tmp/Installer
 sudo cd /tmp/Installer
 sudo wget http://files.trendmicro.com/products/deepsecurity/en/9.6/Agent-RedHat_EL7-9.6.2-7723.x86_64.zip 
