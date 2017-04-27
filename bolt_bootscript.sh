@@ -1,5 +1,6 @@
 #!/bin/sh
-mkdir /tmp/A2
+sudo mkdir /tmp/A2
+sudo mkdir /home/test2
 #echo "Starting Installation " >> /tmp/BOLT_Install_Boot.log
 #sudo -i
 #whoami
