@@ -1,4 +1,5 @@
 #!/bin/sh
+
 sudo mkdir /tmp/A2
 sudo mkdir /home/test2
 #sudo yum install wget -y >> /tmp/wget.log 2>&1
